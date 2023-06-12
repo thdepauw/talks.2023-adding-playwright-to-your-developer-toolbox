@@ -1,0 +1,21 @@
+{
+  "name": "talks.2023-adding-playwright-to-your-developer-toolbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thdepauw/talks.2023-adding-playwright-to-your-developer-toolbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thdepauw/talks.2023-adding-playwright-to-your-developer-toolbox/issues"
+  },
+  "homepage": "https://github.com/thdepauw/talks.2023-adding-playwright-to-your-developer-toolbox#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.35.0"
+  }
+}
