@@ -3,11 +3,6 @@ import { test, expect } from "@playwright/test";
 test("should see the details of a group ride and be able to join and leave", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("button", { name: "close preview warning" }).click();
-  // Login
-  await page.getByRole("button", { name: "Login" }).click();
-  await page.getByLabel("Email address").fill("jsvalley@floatrides.com");
-  await page.getByLabel("Password").fill("#1*w1vyBJis!FwC*Shc0");
-  await page.getByRole("button", { name: "Continue", exact: true }).click();
   await expect(page.getByTestId("index")).toContainText("index");
 
   // open group ride details
