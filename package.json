@@ -1,0 +1,19 @@
+{
+  "name": "talks.2023-adding-playwright-to-your-developer-toolbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fsevents": "^2.3.2",
+    "playwright": "^1.38.0",
+    "playwright-core": "^1.38.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.0",
+    "@types/node": "^20.6.2"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
